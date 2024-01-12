@@ -12,7 +12,12 @@ class Emp{
   }
 
   public void display(){
+
       System.out.println("age="+age+", name="+name+", company="+company);
+  }
+
+  public static void showCmpy(){
+      System.out.println("THe company name is"+company);
   }
 
 
@@ -23,6 +28,7 @@ public class StaticDemo2 {
         Emp e = new Emp(21,"Deepak");
         Emp f = new Emp(22,"Ajeet");
         Emp g = new Emp(23,"sujeet");
+        Emp.showCmpy();
         e.display();
         f.display();
         g.display();
