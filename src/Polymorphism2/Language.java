@@ -1,7 +1,10 @@
 package Polymorphism2;
 
-abstract public class Language {
-   abstract public void greetings();
+ public class Language {
+    public void greetings(){
+
+    }
+
 
 
 }
