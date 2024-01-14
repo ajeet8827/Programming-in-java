@@ -15,7 +15,7 @@ public class UseAnimal {
 
         /*
                   we achive runtime polymorphism......
-                  run time polymorphism achieve by interface and abstract class and method;
+                  run time polymorphism achieve by interface and abstract class;
          */
     }
 }
