@@ -16,8 +16,9 @@ public class CustomeExceptiondemo {
         Scanner sc = new Scanner(System.in);
         try
         {
-            System.out.println("Enter two element");
+            System.out.println("Enter first element");
             int a =sc.nextInt();
+            System.out.println("Enter sec element");
             int b=sc.nextInt();
             if(a<=0){
 
@@ -28,14 +29,14 @@ public class CustomeExceptiondemo {
             }
             int c =a/b;
             System.out.println("Div is"+c);
-        }catch (ArithmeticException ex){
-            System.out.println(ex.getMessage());
+        }catch (ArithmeticException | NegativeNumerstorException ex){
+            System.out.println("Exception caught:"+ex);
 
         }
-        catch (NegativeNumerstorException ex2)
-        {
-            System.out.println(ex2.getMessage());
-
-        }
+//        catch (NegativeNumerstorException ex2)
+//        {
+//            System.out.println(ex2.getMessage());
+//
+//        }
     }
 }
