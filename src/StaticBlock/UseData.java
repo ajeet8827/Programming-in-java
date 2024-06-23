@@ -6,11 +6,12 @@ class Data{
       object bante hai contructor automatic call hota hai ...
       jitne bar class ka object banega,,,,.....
      */
-    static {
-        System.out.println("Static block called...");
-    }
+
     public Data(){
         System.out.println("Constructor called...");// cons har object create krne me chalta hai
+    }
+    static {
+        System.out.println("Static block called...");
     }
 
     public static void show(){

@@ -3,11 +3,12 @@ class Emp{
   private int age;
   private String name;
   //private String company=new String("Amazon");
-    private static String company="Amazon";
+    private static  String company="Amazon";
 
   public Emp(int a,String n){
       age=a;
       name =n;
+
 
   }
 
